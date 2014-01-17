@@ -49,7 +49,16 @@ if ($layout == '1' ||
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
-                    <?php tt_site_logo(); ?>
+                    
+                     <?php
+                        if (isset($post) && tt_getmeta('wp_page_template') == 'page-one-page.php') {
+                            //render_mega_nav('onepage_nav' . $post->ID);
+                            tt_site_logo();
+                        } else {
+                           echo "<div id='logo'><a href='http://test.gwc.net/cn/network/'><img src='http://test.gwc.net/cn/wp-content/uploads/2013/12/gwc-logo-hi-res-copy-copy.png' alt='长城会'></a></div>";
+					
+                        }
+                        ?>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
                     <div class="<?php echo $menutype . $onlyicon; ?> align_right">

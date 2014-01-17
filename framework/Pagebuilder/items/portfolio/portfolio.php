@@ -186,9 +186,25 @@ function blox_portfolio_parse_hook($atts) {
             if ($cat_filter_html != '') {
                 $result = $title.'<div class="row"><div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                     <div class="post-filter">
-                                        <ul>
+                                        <ul style="padding-bottom: 5px;">
                                             <li><a href="javascript:;" title="All" data-filter="all" class="active">All</a></li>
-                                            ' . $cat_filter_html . '
+                                            <li><a href="javascript:;" title="高级会员" data-filter="filter-premium-members">高级会员</a></li>
+                                            <li><a href="javascript:;" title="标准会员" data-filter="filter-standard-members">标准会员</a></li>
+                                        </ul>
+                                        <ul style="padding-bottom: 5px;">    
+                                            <li><a href="javascript:;" title="中国" data-filter="filter-china">中国</a></li>
+                                            <li><a href="javascript:;" title="日本" data-filter="filter-japan">日本</a></li>
+                                            <li><a href="javascript:;" title="欧美" data-filter="filter-europe-america">欧美</a></li>
+                                            <li><a href="javascript:;" title="其他地区" data-filter="filter-others">其他地区</a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="javascript:;" title="移动营销" data-filter="filter-marketing">移动营销</a></li>
+                                            <li><a href="javascript:;" title="投资" data-filter="filter-investment">投资</a></li>
+                                            <li><a href="javascript:;" title="平台" data-filter="filter-platform">平台</a></li>
+                                            <li><a href="javascript:;" title="移动游戏" data-filter="filter-games">移动游戏</a></li>
+                                            <li><a href="javascript:;" title="电商及O2O" data-filter="filter-e-commerce">电商及O2O</a></li>
+                                            <li><a href="javascript:;" title="硬件" data-filter="filter-hardware">硬件</a></li>
+                                            <li><a href="javascript:;" title="其他" data-filter="filter-others-2">其他</a></li>
                                         </ul>
                                     </div>
                                 </div></div>'.$result;
