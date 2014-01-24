@@ -48,7 +48,7 @@ if ($smof_data['top_bar'] == '1') {
                 </div>
                 <div class="col-lg-6 col-sm-6 col-xs-12 col-md-6">
                     <div class="top_right">
-                        <a href="http://www.gwc.net/cn/">GWC</a>
+                        <a href="http://www.gwc.net/">GWC</a>
                     </div><!-- end top_right -->
                 </div>
             </div><!-- end row -->

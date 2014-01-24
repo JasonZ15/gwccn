@@ -55,7 +55,7 @@ if ($layout == '1' ||
                             //render_mega_nav('onepage_nav' . $post->ID);
                             tt_site_logo();
                         } else {
-                           echo "<div id='logo'><a href='http://www.gwc.net/cn/network/'><img src='http://www.gwc.net/cn/wp-content/uploads/2013/12/gwc-logo-hi-res-copy-copy.png' alt='长城会'></a></div>";
+                           echo "<div id='logo'><a href='http://www.gwc.net/network/'><img src='http://www.gwc.net/wp-content/uploads/2013/12/gwc-logo-hi-res-copy-copy.png' alt='长城会'></a></div>";
 					
                         }
                         ?>
